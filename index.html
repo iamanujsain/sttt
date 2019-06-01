@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- modal -->
+    <div id="modal">
+        <!-- modal content -->
+        <div class="modal-content">
+            <h3>Choose who makes the first move...</h3>
+            <input type="radio" name="player" value="X" style="margin:3%" id="x">X<br>
+            <input type="radio" name="player" value="O" style="margin:3%" id="o">O<br>
+            <input type="button" name="next" value="Next" style="padding:3%; margin:2%" id="next">
+        </div>
+    </div>
+
+    <!-- Game container -->
+    <div class="game_container" id="gc">
+        <div class="row row1">
+            <div id="1" class="col box box1 unselectable">1</div>
+            <div id="2" class="col box box2 unselectable">2</div>
+            <div id="3" class="col box box3 unselectable">3</div>
+        </div>
+        <div class="row row2">
+            <div id="4" class="col box box4 unselectable">4</div>
+            <div id="5" class="col box box5 unselectable">5</div>
+            <div id="6" class="col box box6 unselectable">6</div>
+        </div>
+        <div class="row row3">
+            <div id="7" class="col box box7 unselectable">7</div>
+            <div id="8" class="col box box8 unselectable">8</div>
+            <div id="9" class="col box box9 unselectable">9</div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
