@@ -61,8 +61,10 @@ one.cell.onclick = () => {
     if (one.enabled) {
         if (counter % 2 == 0) {
             one.cell.innerHTML = first;
+            one.cell.style.backgroundColor = "pink";
         } else {
             one.cell.innerHTML = second;
+            one.cell.style.backgroundColor = "pink";
         }
         one.enabled = false;
         counter++;
@@ -73,8 +75,10 @@ two.cell.onclick = () => {
     if (two.enabled) {
         if (counter % 2 == 0) {
             two.cell.innerHTML = first;
+            two.cell.style.backgroundColor = "pink";
         } else {
             two.cell.innerHTML = second;
+            two.cell.style.backgroundColor = "pink";
         }
         two.enabled = false;
         counter++;
@@ -85,8 +89,10 @@ three.cell.onclick = () => {
     if (three.enabled) {
         if (counter % 2 == 0) {
             three.cell.innerHTML = first;
+            three.cell.style.backgroundColor = "pink";
         } else {
             three.cell.innerHTML = second;
+            three.cell.style.backgroundColor = "pink";
         }
         three.enabled = false;
         counter++;
@@ -97,8 +103,10 @@ four.cell.onclick = () => {
     if (four.enabled) {
         if (counter % 2 == 0) {
             four.cell.innerHTML = first;
+            four.cell.style.backgroundColor = "pink";
         } else {
             four.cell.innerHTML = second;
+            four.cell.style.backgroundColor = "pink";
         }
         four.enabled = false;
         counter++;
@@ -109,8 +117,10 @@ five.cell.onclick = () => {
     if (five.enabled) {
         if (counter % 2 == 0) {
             five.cell.innerHTML = first;
+            five.cell.style.backgroundColor = "pink";
         } else {
             five.cell.innerHTML = second;
+            five.cell.style.backgroundColor = "pink";
         }
         five.enabled = false;
         counter++;
@@ -121,8 +131,10 @@ six.cell.onclick = () => {
     if (six.enabled) {
         if (counter % 2 == 0) {
             six.cell.innerHTML = first;
+            six.cell.style.backgroundColor = "pink";
         } else {
             six.cell.innerHTML = second;
+            six.cell.style.backgroundColor = "pink";
         }
         six.enabled = false;
         counter++;
@@ -133,8 +145,10 @@ seven.cell.onclick = () => {
     if (seven.enabled) {
         if (counter % 2 == 0) {
             seven.cell.innerHTML = first;
+            seven.cell.style.backgroundColor = "pink";
         } else {
             seven.cell.innerHTML = second;
+            seven.cell.style.backgroundColor = "pink";
         }
         seven.enabled = false;
         counter++;
@@ -145,8 +159,10 @@ eight.cell.onclick = () => {
     if (eight.enabled) {
         if (counter % 2 == 0) {
             eight.cell.innerHTML = first;
+            eight.cell.style.backgroundColor = "pink";
         } else {
             eight.cell.innerHTML = second;
+            eight.cell.style.backgroundColor = "pink";
         }
         eight.enabled = false;
         counter++;
@@ -157,8 +173,10 @@ nine.cell.onclick = () => {
     if (nine.enabled) {
         if (counter % 2 == 0) {
             nine.cell.innerHTML = first;
+            nine.cell.style.backgroundColor = "pink";
         } else {
             nine.cell.innerHTML = second;
+            nine.cell.style.backgroundColor = "pink";
         }
         nine.enabled = false;
         counter++;
