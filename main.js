@@ -342,7 +342,9 @@ function reset() {
 
 function update() {
     if (!gameOver().over && gameOver().tie) {
-        tieAlert();
+        setTimeout(() => {
+            tieAlert();
+        }, 1000);
     }
 
     if (gameOver().over) {
@@ -352,4 +354,9 @@ function update() {
         }, 2000);
     }
 
+}
+
+let resetboard = document.getElementById("resetboard");
+resetboard.onclick = () => {
+    reset();
 }
